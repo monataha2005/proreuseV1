@@ -2,6 +2,7 @@ package com.example.proreusev1;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -62,6 +63,10 @@ public class RegisterActivity extends Activity {
 
                                 User user = new User(userName,password,email,location);
                                 databaseReference.child("Users").child(userName).setValue(user);
+                                Intent intent = new Intent();
+                                intent.putExtra("UserName",userName);
+                                intent.putExtra("pwd",password);
+                                setResult(RESULT_OK,intent);
                                 finish();
                             }
 

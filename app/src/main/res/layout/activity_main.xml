@@ -22,7 +22,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/username1"
+        android:id="@+id/usernameLgn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/login"
@@ -39,10 +39,10 @@
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/passwordlgn"
+        android:id="@+id/passwordLgn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/username1"
+        android:layout_below="@id/usernameLgn"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
@@ -59,7 +59,7 @@
         android:id="@+id/login_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/passwordlgn"
+        android:layout_below="@id/passwordLgn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="Log In" />

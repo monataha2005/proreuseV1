@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SharedReuseActivity">
+
+    <Button
+        android:id="@+id/addReuseItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"/>
+    <ScrollView
+        android:layout_below="@+id/addReuseItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <ListView
+            android:id="@+id/lstView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/inputLinerLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerInParent="true"
+        android:background="#232020"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#B89889"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/uploadImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"/>
+        <EditText
+            android:id="@+id/product_nameInp"
+            android:background="#65655555"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name Of Product"/>
+        <EditText
+            android:id="@+id/priceInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"/>
+        <EditText
+            android:id="@+id/dateInp"
+            android:background="#65655555"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date"/>
+        <EditText
+            android:id="@+id/descriptionInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"/>
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
