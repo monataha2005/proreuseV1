@@ -4,27 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/blue_background"
     tools:context=".RegisterActivity">
-    <TextView
-        android:id="@+id/login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        android:gravity="center"
-        android:text="Sigh Up"
-        android:textSize="50dp"
-        android:textColor="@color/white"
-        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/signuplogo"
+        android:layout_width="321dp"
+        android:layout_height="172dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:alpha="0.9"
+        app:srcCompat="@drawable/backkkkkkground"
+        >
+
+    </imageView>
 
     <EditText
         android:id="@+id/usernameReg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/login"
+        android:layout_below="@id/signuplogo"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
@@ -35,7 +34,9 @@
         android:hint="Username"
         android:padding="20dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/passwordReg"
         android:layout_width="match_parent"
@@ -51,7 +52,9 @@
         android:hint="New Password"
         android:padding="20dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/white"
+        android:textStyle="bold"/>
+
     <EditText
         android:id="@+id/passwordRetype"
         android:layout_width="match_parent"
@@ -67,7 +70,9 @@
         android:hint="Supmit Your Password"
         android:padding="20dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/white"
+        android:textStyle="bold"/>
+
     <EditText
         android:id="@+id/emailReg"
         android:layout_width="match_parent"
@@ -78,12 +83,13 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:background="#30ffffff"
-        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
         android:drawablePadding="10dp"
         android:hint="Email"
         android:padding="20dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/locationReg"
@@ -100,15 +106,21 @@
         android:hint="Your Location"
         android:padding="20dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/white"
+        android:textStyle="bold"/>
+
     <Button
         android:id="@+id/doneReg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="118dp"
+        android:layout_height="62dp"
         android:layout_below="@id/locationReg"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="Done" />
+        android:background="#186eb8"
+        android:text="Done"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
 
 
 </RelativeLayout>

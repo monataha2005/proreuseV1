@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "299896407447",
+    "firebase_url": "https://proreuse-edb11-default-rtdb.firebaseio.com",
+    "project_id": "proreuse-edb11",
+    "storage_bucket": "proreuse-edb11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299896407447:android:da97191b4cc51c7f7570d2",
+        "android_client_info": {
+          "package_name": "com.example.proreusev1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299896407447-fi11u0td7nn012vmrhmo4m34ss450e7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyLsT4XWbxH4jUV5rRvnaE7VcH7MLmsRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299896407447-fi11u0td7nn012vmrhmo4m34ss450e7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

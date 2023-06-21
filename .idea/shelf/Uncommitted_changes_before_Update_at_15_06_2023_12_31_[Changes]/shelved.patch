@@ -1,0 +1,25 @@
+Index: .idea/deploymentTargetDropDown.xml
+===================================================================
+diff --git a/.idea/deploymentTargetDropDown.xml b/.idea/deploymentTargetDropDown.xml
+deleted file mode 100644
+--- a/.idea/deploymentTargetDropDown.xml	(revision 3dbb6538bf00bb5593c2787c3428877948f4247f)
++++ /dev/null	(revision 3dbb6538bf00bb5593c2787c3428877948f4247f)
+@@ -1,17 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="deploymentTargetDropDown">
+-    <runningDeviceTargetSelectedWithDropDown>
+-      <Target>
+-        <type value="RUNNING_DEVICE_TARGET" />
+-        <deviceKey>
+-          <Key>
+-            <type value="VIRTUAL_DEVICE_PATH" />
+-            <value value="C:\Users\lenovo\.android\avd\Nexus_6P_API_32.avd" />
+-          </Key>
+-        </deviceKey>
+-      </Target>
+-    </runningDeviceTargetSelectedWithDropDown>
+-    <timeTargetWasSelectedWithDropDown value="2023-06-12T07:45:01.601423800Z" />
+-  </component>
+-</project>
+\ No newline at end of file

@@ -4,38 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="#a2e4d8"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/login"
+    <ImageView
+        android:id="@+id/loginlogo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        android:gravity="center"
-        android:text="Log In"
-        android:textSize="40dp"
-        android:textColor="@color/white"
-        android:textStyle="bold" />
+        android:layout_height="206dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logooooooooooo"></imageView>
 
     <EditText
         android:id="@+id/usernameLgn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/login"
+        android:layout_below="@id/loginlogo"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:background="#30ffffff"
+        android:background="#186eb8"
         android:drawableLeft="@drawable/ic_baseline_person_outline_24"
         android:drawablePadding="10dp"
         android:hint="Username"
         android:padding="20dp"
         android:textColor="@color/white"
+        android:alpha="0.7"
         android:textColorHint="@color/white" />
 
     <EditText
@@ -47,7 +42,8 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:background="#30ffffff"
+        android:background="#186eb8"
+        android:alpha="0.7"
         android:drawableLeft="@drawable/ic_baseline_info_24"
         android:drawablePadding="10dp"
         android:hint="Password"
@@ -62,16 +58,30 @@
         android:layout_below="@id/passwordLgn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:text="Log In" />
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="#0897dc"
+
+        />
 
     <Button
         android:id="@+id/register_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/login_btn"
+        android:layout_alignEnd="@+id/login_btn"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="40dp"
-        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:text="Register..." />
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40dp"
+        android:background="#0897dc"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
 
 </RelativeLayout>
